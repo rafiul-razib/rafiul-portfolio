@@ -10,9 +10,9 @@ import iconExpress from "../../assets/images/icons/express.png";
 import iconMongo from "../../assets/images/icons/mongo.png";
 const Skills = () => {
   return (
-    <div>
+    <div className="text-center mt-16">
       <h1 className="text-4xl text-white my-4">Technologies I can work with</h1>
-      <div className="divide-x"></div>
+      <div className="divider"></div>
       <br />
       <div className="flex items-center justify-center gap-6">
         <div className="flex flex-col justify-center items-center">

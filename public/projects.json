@@ -1,0 +1,86 @@
+
+    [
+      {
+        "title": "Crafted Reflection",
+        "image": "https://i.ibb.co/23thHjk/screencapture-crafted-reflections-web-app-2024-07-05-19-24-28.png",
+        "description": "An e-commerce platform for buying and selling products online. User can upload product to show in the online marketplace and can also buy other user's product.",
+        "coreFeatures": [
+          "Product browsing and searching",
+          "Shopping cart and checkout",
+          "Payment gateway integration",
+          "Order management",
+          "Secured 2 api through JWT Token"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Swiper Js",
+          "React Router Dom",
+          "Tailwind CSS & Daisy UI",
+          "JWT Token"
+        ],
+        "liveSiteLink": "https://crafted-reflections.web.app/",
+        "githubClientLink": "https://github.com/rafiul-razib/crafted-reflection",
+        "githubServerLink": "https://github.com/rafiul-razib/crafted-reflection-server"
+      },
+
+      {
+        "title": "Tech Fusion",
+        "image": "https://i.ibb.co/pZKmjLf/screencapture-tech-fusion-194e6-web-app-2024-07-05-19-37-54.png",
+        "description": "A web application for Selling and Buying Softwares and Apps. There is an admin in this website who can make other users admin or moderator. Moderator maintain's the website by accepting or rejecting the products posted by general users. He can manage the reported contents of the website as well",
+        "coreFeatures": [
+          "User authentication and authorization",
+          "Post Products and Buy Products",
+          "Moderator can approve or reject posted product",
+          "Admin can manage users",
+          "Secured 2 api through JWT Token"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "React Router Dom",
+          "Tailwind CSS & Daisy UI",
+          "JWT Token"
+        ],
+        "liveSiteLink": "https://tech-fusion-194e6.web.app/",
+        "githubClientLink": "https://github.com/rafiul-razib/tech-fusion-client",
+        "githubServerLink": "https://github.com/rafiul-razib/tech-fusion-server"
+      },
+      
+      {
+        "title": "Career Path",
+        "image": "https://i.ibb.co/h7Dxx7h/screencapture-career-path-3991e-web-app-2024-07-05-19-25-31.png",
+        "description": "A website for job seekers. There are various type of jobs in this website posted by different employers. User can apply for job through this website.",
+        "coreFeatures": [
+          "Search jobs by category",
+          "User can apply job by signing in",
+          "User can post jobs"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Angular",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "React Router Dom",
+          "Tailwind CSS & Daisy UI"
+        ],
+        "liveSiteLink": "https://career-path-3991e.web.app/",
+        "githubClientLink": "https://github.com/rafiul-razib/career-path",
+        "githubServerLink": "https://github.com/rafiul-razib/career-path-server"
+      }
+    ]
+  
+  
