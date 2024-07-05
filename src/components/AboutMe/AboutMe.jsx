@@ -32,7 +32,10 @@ const AboutMe = () => {
             dedicated teams.
           </p>
           <div className="my-12">
-            <a href="/src/assets/WD RAFIUL HABIB.pdf" download>
+            <a
+              href="https://drive.google.com/file/d/15eawYj-8VMYQJyrZ-l5-4pXUp1VcfLP0/view"
+              target="blank"
+            >
               <button className="btn btn-accent">Download Resume</button>
             </a>
           </div>
