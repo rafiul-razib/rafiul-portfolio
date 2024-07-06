@@ -23,7 +23,7 @@ const Projects = () => {
       <div>
         {projects.map((project) => (
           <>
-            <div className="card md:card-side bg-base-100 shadow-xl mt-12 lg:h-[600px]">
+            <div className="card lg:card-side bg-base-100 shadow-xl mt-12 lg:h-[600px]">
               <div className="w-full lg:w-1/3 h-[250px] lg:h-[auto] overflow-hidden relative">
                 <img
                   className="object-top object-cover"
