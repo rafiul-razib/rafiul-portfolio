@@ -10,13 +10,13 @@ import iconExpress from "../../assets/images/icons/express.png";
 import iconMongo from "../../assets/images/icons/mongo.png";
 const Skills = () => {
   return (
-    <div className="text-center mt-16 px-4" name="skills">
+    <div className="text-center mt-16" name="skills">
       <h1 className="text-2xl lg:text-4xl text-white my-4">
         Technologies I can work with
       </h1>
       <div className="divider"></div>
       <br />
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center justify-center gap-6 px-4">
         <div className="flex flex-col justify-center items-center">
           <img className="w-[4em]" src={iconHtml} />
           <h1 className="text-center">HTML</h1>
@@ -30,7 +30,7 @@ const Skills = () => {
           <h1 className="text-center">JavaScript</h1>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center justify-center gap-6 px-4">
         <div className="flex flex-col justify-center items-center">
           <img className="w-[4em]" src={iconReact} />
           <h1 className="text-center">React Js</h1>
@@ -48,7 +48,7 @@ const Skills = () => {
           <h1 className="text-center">Firebase</h1>
         </dir>
       </div>
-      <div className="flex  items-center justify-center gap-6">
+      <div className="flex  items-center justify-center gap-6 px-4">
         <div className="flex flex-col justify-center items-center">
           <img className="w-[4em]" src={iconNode} />
           <h1 className="text-center">Node Js</h1>

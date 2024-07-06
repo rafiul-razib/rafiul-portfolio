@@ -64,12 +64,12 @@ const Contact = () => {
               <label className="label">Message</label>
               <textarea
                 className="textarea textarea-accent"
-                placeholder="Type your message!"
+                placeholder="Leave your message!"
                 name="message"
               />
               <br />
               <input
-                className="btn btn-outline"
+                className="btn btn-accent"
                 required
                 type="submit"
                 value="Send"
