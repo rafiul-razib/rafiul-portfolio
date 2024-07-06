@@ -11,7 +11,7 @@ import iconMongo from "../../assets/images/icons/mongo.png";
 const Skills = () => {
   return (
     <div className="text-center mt-16" name="skills">
-      <h1 className="text-2xl lg:text-4xl text-white my-4">
+      <h1 className="text-2xl lg:text-4xl  my-4">
         Technologies I can work with
       </h1>
       <div className="divider"></div>

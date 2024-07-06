@@ -14,7 +14,7 @@ const Projects = () => {
   // console.log(projects);
   return (
     <div className="mt-28" name="projects">
-      <h1 className="text-2xl lg:text-4xl text-white mt-20 text-center">
+      <h1 className="text-2xl lg:text-4xl  mt-20 text-center">
         My Key Projects
       </h1>
 
@@ -23,7 +23,7 @@ const Projects = () => {
       <div>
         {projects.map((project) => (
           <>
-            <div className="card :card-side bg-base-100 shadow-xl mt-12 lg:h-[600px]">
+            <div className="card md:card-side bg-base-100 shadow-xl mt-12 lg:h-[600px]">
               <div className="w-full lg:w-1/3 h-[250px] lg:h-[auto] overflow-hidden relative">
                 <img
                   className="object-top object-cover"
@@ -32,7 +32,7 @@ const Projects = () => {
                 />
               </div>
               <div className="card-body w-full text-center lg:text-start lg:w-2/3">
-                <h2 className="card-title mx-auto lg:mx-0 text-2xl lg:text-4xl">
+                <h2 className="card-title mx-auto lg:mx-0 text-2xl lg:text-2xl">
                   {project.title}
                 </h2>
                 <p>{project.description}</p>

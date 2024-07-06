@@ -9,7 +9,7 @@ const AboutMe = () => {
         name="resume"
       >
         <div className="w-full lg:w-1/2 text-center">
-          <h1 className="font-semibold lg:font-bold text-2xl lg:text-3xl text-white">
+          <h1 className="font-semibold lg:font-bold text-2xl lg:text-3xl ">
             I am{" "}
             <span>
               <Typewriter

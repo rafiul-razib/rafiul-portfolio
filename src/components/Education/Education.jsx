@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className="mt-28 text-center lg:text-start" name="education">
-      <h1 className="text-3xl lg:text-4xl text-white mt-20 text-center">
+      <h1 className="text-3xl lg:text-4xl  mt-20 text-center">
         My Education and Trainings
       </h1>
 
