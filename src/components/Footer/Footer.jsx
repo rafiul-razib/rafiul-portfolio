@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import dark_logo from "../../assets/images/logo/portfolio_dark_logo-removebg-preview.png";
 const Footer = () => {
   return (
-    <footer className="footer bg-neutral text-neutral-content p-10 mt-28">
+    <footer className="footer bg-neutral text-neutral-content p-10 mt-6 lg:mt-28">
       <aside>
         <figure className="w-1/4">
           <img src={dark_logo} alt="" srcSet="" />

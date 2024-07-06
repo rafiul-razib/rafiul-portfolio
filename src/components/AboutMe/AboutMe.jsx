@@ -39,12 +39,14 @@ const AboutMe = () => {
               href="https://drive.google.com/file/d/15eawYj-8VMYQJyrZ-l5-4pXUp1VcfLP0/view"
               target="blank"
             >
-              <button className="btn btn-accent">Download Résumé</button>
+              <button className="btn btn-accent btn-sm lg:btn-md">
+                Download Résumé
+              </button>
             </a>
           </div>
         </div>
         <div className="w-1/2">
-          <img className="w-full" src={rzb3} alt="" srcset="" />
+          <img className="w-full" src={rzb3} alt="" srcSet="" />
         </div>
       </div>
     </div>

@@ -49,9 +49,9 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost w-1/2 lg:ps-10">
-          <img src={logo_dark} />
-        </a>
+        <div className="lg:w-[300px] lg:ps-10">
+          <img className="w-full" src={logo_dark} />
+        </div>
       </div>
       <div className="navbar-end hidden lg:flex lg:pe-10">
         <ul className="menu menu-horizontal px-1">{links}</ul>

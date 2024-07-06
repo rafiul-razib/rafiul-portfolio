@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import { Typewriter } from "react-simple-typewriter";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
@@ -11,24 +10,39 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_xucnpjf", "template_s88hhpy", form.current, {
+      .sendForm("service_tfjgats", "template_s88hhpy", form.current, {
         publicKey: "xw3RPL4bxy3HYjJ6p",
       })
       .then(
         () => {
           console.log("SUCCESS!");
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your feedback has been recorded",
+            showConfirmButton: false,
+            timer: 1500,
+          });
         },
         (error) => {
           console.log("FAILED...", error.text);
+          Swal.fire({
+            position: "top-end",
+            icon: "Error",
+            title: "An Error Ocurred",
+            showConfirmButton: false,
+            timer: 1500,
+          });
         }
       );
+    e.target.reset();
   };
   return (
     <div className="mt-28" name="contact">
       <h1 className="text-4xl text-white mt-20 text-center">Contact Me</h1>
       <div className="divider"></div>
-      <div className="grid grid-cols-2">
-        <div>
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="p-4">
           <form ref={form} onSubmit={sendEmail}>
             <div className="form-control">
               <label className="label">Name</label>
@@ -62,7 +76,9 @@ const Contact = () => {
           </form>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-white text-3xl font-bold mb-10">Find Me On</h1>
+          <h1 className="text-white text-xl lg:text-3xl font-bold mb-4 lg:mb-10">
+            Find Me On
+          </h1>
 
           <div className="flex justify-center items-center gap-4">
             <a href="https://web.facebook.com/rafiul.razib" target="blank">

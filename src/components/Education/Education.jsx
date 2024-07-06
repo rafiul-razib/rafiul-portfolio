@@ -1,11 +1,11 @@
 const Education = () => {
   return (
     <div className="mt-28" name="education">
-      <h1 className="text-4xl text-white mt-20 text-center">
+      <h1 className="text-3xl lg:text-4xl text-white mt-20 text-center">
         My Education and Trainings
       </h1>
 
-      <div className="divider mb-12"></div>
+      <div className="divider lg:mb-12"></div>
 
       <div className="card lg:card-side bg-base-100 shadow-2xl">
         {/* <figure>
