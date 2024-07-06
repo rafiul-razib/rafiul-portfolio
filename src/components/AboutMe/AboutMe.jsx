@@ -8,7 +8,7 @@ const AboutMe = () => {
         className="flex flex-col-reverse lg:flex-row items-center justify-center max-w-6xl mx-auto pt-12"
         name="resume"
       >
-        <div className="w-full lg:w-1/2 text-center">
+        <div className="w-full lg:w-1/2 text-center px-2">
           <h1 className="font-semibold lg:font-bold text-2xl lg:text-3xl ">
             I am{" "}
             <span>

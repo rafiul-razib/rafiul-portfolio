@@ -16,50 +16,52 @@ const Skills = () => {
       </h1>
       <div className="divider"></div>
       <br />
-      <div className="flex items-center justify-center gap-6 px-4">
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconHtml} />
-          <h1 className="text-center">HTML</h1>
+      <div className="px-10">
+        <div className="flex items-center justify-center gap-6">
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconHtml} />
+            <h1 className="text-center">HTML</h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconCss} />
+            <h1 className="text-center">CSS</h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconJS} />
+            <h1 className="text-center">JavaScript</h1>
+          </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconCss} />
-          <h1 className="text-center">CSS</h1>
+        <div className="flex items-center justify-center gap-6">
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconReact} />
+            <h1 className="text-center">React Js</h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconTailwind} />
+            <h1 className="text-center">Tailwind CSS</h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconBootStrap} />
+            <h1 className="text-center">BootStrap</h1>
+          </div>
+          <dir className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconFireBase} />
+            <h1 className="text-center">Firebase</h1>
+          </dir>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconJS} />
-          <h1 className="text-center">JavaScript</h1>
-        </div>
-      </div>
-      <div className="flex items-center justify-center gap-6 px-4">
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconReact} />
-          <h1 className="text-center">React Js</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconTailwind} />
-          <h1 className="text-center">Tailwind CSS</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconBootStrap} />
-          <h1 className="text-center">BootStrap</h1>
-        </div>
-        <dir className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconFireBase} />
-          <h1 className="text-center">Firebase</h1>
-        </dir>
-      </div>
-      <div className="flex  items-center justify-center gap-6 px-4">
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconNode} />
-          <h1 className="text-center">Node Js</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconExpress} />
-          <h1 className="text-center">Express Js</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <img className="w-[4em]" src={iconMongo} />
-          <h1 className="text-center">MongoDb</h1>
+        <div className="flex  items-center justify-center gap-6">
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconNode} />
+            <h1 className="text-center">Node Js</h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconExpress} />
+            <h1 className="text-center">Express Js</h1>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img className="w-[4em]" src={iconMongo} />
+            <h1 className="text-center">MongoDb</h1>
+          </div>
         </div>
       </div>
       <br />
