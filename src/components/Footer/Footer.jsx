@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer bg-neutral text-neutral-content p-10 mt-6 lg:mt-28">
       <aside>
-        <figure className="w-1/4">
+        <figure className="w-1/3 lg:w-1/4">
           <img src={dark_logo} alt="" srcSet="" />
         </figure>
         <p>
@@ -13,7 +13,7 @@ const Footer = () => {
         </p>
       </aside>
       <nav>
-        <h6 className="footer-title mt-12">Social</h6>
+        <h6 className="lg:mt-12">Social</h6>
         <div className="grid grid-flow-col gap-4">
           <a href="https://web.facebook.com/rafiul.razib" target="blank">
             <FaFacebook className="text-3xl hover:text-blue-400" />

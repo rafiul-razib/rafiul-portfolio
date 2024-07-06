@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="mt-28" name="education">
+    <div className="mt-28 text-center lg:text-start" name="education">
       <h1 className="text-3xl lg:text-4xl text-white mt-20 text-center">
         My Education and Trainings
       </h1>
@@ -15,7 +15,9 @@ const Education = () => {
           />
         </figure> */}
         <div className="card-body">
-          <h2 className="card-title">Full Stack Web Development</h2>
+          <h2 className="card-title mx-auto lg:mx-0">
+            Full Stack Web Development
+          </h2>
           <p>
             I completed a 6 months long course on Full-Stack Web Development
             from{" "}
@@ -43,7 +45,9 @@ const Education = () => {
           />
         </figure> */}
         <div className="card-body">
-          <h2 className="card-title">B.Sc in Leather Engineering</h2>
+          <h2 className="card-title mx-auto lg:mx-0">
+            B.Sc in Leather Engineering
+          </h2>
           <p>
             I graduated with a degree in Leather and Footwear Engineering from{" "}
             <a

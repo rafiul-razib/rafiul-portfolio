@@ -10,7 +10,7 @@ import iconExpress from "../../assets/images/icons/express.png";
 import iconMongo from "../../assets/images/icons/mongo.png";
 const Skills = () => {
   return (
-    <div className="text-center mt-16" name="skills">
+    <div className="text-center mt-16 px-4" name="skills">
       <h1 className="text-2xl lg:text-4xl text-white my-4">
         Technologies I can work with
       </h1>

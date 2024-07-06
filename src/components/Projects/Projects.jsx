@@ -31,18 +31,20 @@ const Projects = () => {
                   alt="Movie"
                 />
               </div>
-              <div className="card-body w-full lg:w-2/3">
-                <h2 className="card-title text-4xl">{project.title}</h2>
+              <div className="card-body w-full text-center lg:text-start lg:w-2/3">
+                <h2 className="card-title mx-auto lg:mx-0 text-2xl lg:text-4xl">
+                  {project.title}
+                </h2>
                 <p>{project.description}</p>
                 <div className="divider"></div>
                 <div className="flex gap-10">
-                  <div>
+                  <div className="text-start">
                     <h3>Core Features :</h3>
                     {project.coreFeatures.map((feature) => (
                       <li>{feature}</li>
                     ))}
                   </div>
-                  <div>
+                  <div className="text-start">
                     <h3>Used Technologies:</h3>
                     {project.technologies.map((tech) => (
                       <li>{tech}</li>
