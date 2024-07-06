@@ -4,9 +4,12 @@ import { Typewriter } from "react-simple-typewriter";
 const AboutMe = () => {
   return (
     <div>
-      <div className="flex items-center justify-center max-w-6xl mx-auto pt-12">
-        <div className="w-1/2 text-center">
-          <h1 className="font-bold text-3xl text-white">
+      <div
+        className="flex flex-col-reverse lg:flex-row items-center justify-center max-w-6xl mx-auto pt-12"
+        name="resume"
+      >
+        <div className="w-full lg:w-1/2 text-center">
+          <h1 className="font-semibold lg:font-bold text-2xl lg:text-3xl text-white">
             I am{" "}
             <span>
               <Typewriter
@@ -24,19 +27,19 @@ const AboutMe = () => {
               />
             </span>
           </h1>
-          <p className="text-gray-400 pt-6">
+          <p className="text-gray-400 pt-4 lg:pt-6">
             My name is Rafiul Razib and I'm from Bangladesh. I am a Passionate
             MERN-focused front-end web developer with expertise in building
             responsive web applications. I am enthusiastic about learning new
             technologies, generating innovative ideas, and working with
             dedicated teams.
           </p>
-          <div className="my-12">
+          <div className="my-6 lg:my-12">
             <a
               href="https://drive.google.com/file/d/15eawYj-8VMYQJyrZ-l5-4pXUp1VcfLP0/view"
               target="blank"
             >
-              <button className="btn btn-accent">Download Resume</button>
+              <button className="btn btn-accent">Download Résumé</button>
             </a>
           </div>
         </div>

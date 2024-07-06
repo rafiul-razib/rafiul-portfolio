@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="mt-28">
+    <div className="mt-28" name="education">
       <h1 className="text-4xl text-white mt-20 text-center">
         My Education and Trainings
       </h1>
@@ -22,6 +22,7 @@ const Education = () => {
             <a
               className="font-bold text-purple-700"
               href="https://www.programming-hero.com/"
+              target="blank"
             >
               Programming Hero
             </a>{" "}
@@ -45,7 +46,11 @@ const Education = () => {
           <h2 className="card-title">B.Sc in Leather Engineering</h2>
           <p>
             I graduated with a degree in Leather and Footwear Engineering from{" "}
-            <a className="font-bold text-blue-700" href="https://www.du.ac.bd/">
+            <a
+              className="font-bold text-blue-700"
+              href="https://www.du.ac.bd/"
+              target="blank"
+            >
               University of Dhaka
             </a>
             , Bangladesh. Following my graduation, I began my career at a

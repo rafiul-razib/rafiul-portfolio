@@ -1,6 +1,29 @@
+import { NavLink } from "react-router-dom";
+import logo_dark from "../../assets/images/logo/portfolio_dark-logo_flex-removebg-preview.png";
+import { Link } from "react-scroll";
+
 const Navbar = () => {
+  const links = (
+    <>
+      <li>
+        <Link to="projects" spy={true} smooth={true} duration={500}>
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link to="resume" spy={true} smooth={true} duration={500}>
+          Résumé
+        </Link>
+      </li>
+      <li>
+        <Link to="contact" spy={true} smooth={true} duration={500}>
+          Contact
+        </Link>
+      </li>
+    </>
+  );
   return (
-    <div className="navbar bg-base-100 max-w-6xl mx-auto">
+    <div className="navbar bg-base-100 pb-6">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,30 +46,15 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Projects</a>
-            </li>
-
-            <li>
-              <a>Resume</a>
-            </li>
+            {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">RAFIUL RAZIB</a>
+        <a className="btn btn-ghost w-1/2 lg:ps-10">
+          <img src={logo_dark} />
+        </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Projects</a>
-          </li>
-
-          <li>
-            <a>Resume</a>
-          </li>
-        </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn bg-purple-800 text-white">Contact Me</a>
+      <div className="navbar-end hidden lg:flex lg:pe-10">
+        <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
     </div>
   );

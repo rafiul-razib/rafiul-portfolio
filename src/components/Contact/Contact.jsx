@@ -1,6 +1,9 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
+
 const Contact = () => {
   const form = useRef();
 
@@ -21,40 +24,59 @@ const Contact = () => {
       );
   };
   return (
-    <div className="mt-28">
+    <div className="mt-28" name="contact">
       <h1 className="text-4xl text-white mt-20 text-center">Contact Me</h1>
       <div className="divider"></div>
-      <form ref={form} onSubmit={sendEmail}>
-        <div className="form-control">
-          <label className="label">Name</label>
-          <input
-            className="input input-accent"
-            required
-            type="text"
-            name="user_name"
-          />
-          <label className="label">Email</label>
-          <input
-            className="input input-accent"
-            required
-            type="email"
-            name="user_email"
-          />
-          <label className="label">Message</label>
-          <textarea
-            className="textarea textarea-accent"
-            placeholder="Type your message!"
-            name="message"
-          />
-          <br />
-          <input
-            className="btn btn-outline"
-            required
-            type="submit"
-            value="Send"
-          />
+      <div className="grid grid-cols-2">
+        <div>
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="form-control">
+              <label className="label">Name</label>
+              <input
+                className="input input-accent"
+                required
+                type="text"
+                name="user_name"
+              />
+              <label className="label">Email</label>
+              <input
+                className="input input-accent"
+                required
+                type="email"
+                name="user_email"
+              />
+              <label className="label">Message</label>
+              <textarea
+                className="textarea textarea-accent"
+                placeholder="Type your message!"
+                name="message"
+              />
+              <br />
+              <input
+                className="btn btn-outline"
+                required
+                type="submit"
+                value="Send"
+              />
+            </div>
+          </form>
         </div>
-      </form>
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-white text-3xl font-bold mb-10">Find Me On</h1>
+
+          <div className="flex justify-center items-center gap-4">
+            <a href="https://web.facebook.com/rafiul.razib" target="blank">
+              <FaFacebook className="text-6xl hover:text-blue-400" />
+            </a>
+            <a href="https://github.com/rafiul-razib" target="blank">
+              <FaGithub className="text-6xl hover:text-blue-400" />
+            </a>
+            <a href="https://www.linkedin.com/in/rafiul-habib/" target="blank">
+              <FaLinkedin className="text-6xl hover:text-blue-400" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

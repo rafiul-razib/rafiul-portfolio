@@ -13,7 +13,7 @@ const Projects = () => {
 
   console.log(projects);
   return (
-    <div className="mt-28">
+    <div className="mt-28" name="projects">
       <h1 className="text-4xl text-white mt-20 text-center">My Key Projects</h1>
 
       <div className="divider"></div>
