@@ -36,7 +36,7 @@ const AboutMe = () => {
           </p>
           <div className="my-6 lg:my-12">
             <a
-              href="https://drive.google.com/file/d/1A01y5y5q0GY693F1oDQ1T8aF6grEABYD/view?usp=sharing"
+              href="https://drive.google.com/file/d/16FHcRZ2prRy9vzP0iOqjE2aTkKZi9Ir1/view?usp=sharing"
               target="blank"
             >
               <button className="btn btn-accent btn-sm lg:btn-md">
