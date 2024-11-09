@@ -1,6 +1,37 @@
 
     [
       {
+        "title": "Quizlytics",
+        "image": "https://i.ibb.co.com/8xJH3Tt/screencapture-quizlytics-vercel-app-2024-11-09-10-39-21.png",
+        "description": "Interactive quiz platform with AI-generated Quick Exams, examiner-uploaded Custom Exams, and Article-based quizzes. Features real-time results, answer review, and history tracking for users, while examiners access leaderboards and manage quizzes.",
+        "coreFeatures": [
+    "AI-generated quizzes based on topic and knowledge level",
+    "Custom quiz upload by examiners with unique quiz key",
+    "Article-based quiz generation",
+    "Real-time scoring and answer review",
+    "User attempt history with details",
+    "Leaderboard for examiners to track performance",
+    "Secure access to custom quizzes via unique key",
+    "Dashboard for examiners and examinees"
+  ],
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Shad cn",
+    "REST API",
+    "Gemini AI API"
+  ],
+  "liveSiteLink": "https://quizlytics.vercel.app",
+  "githubClientLink": "https://github.com/nhwnahid007/quizlytics-client",
+  "githubServerLink": "https://github.com/nhwnahid007/Quizlytics-server"
+      },
+      {
         "title": "Crafted Reflection",
         "image": "https://i.ibb.co/23thHjk/screencapture-crafted-reflections-web-app-2024-07-05-19-24-28.png",
         "description": "An e-commerce platform for buying and selling products online. User can upload product to show in the online marketplace and can also buy other user's product.",

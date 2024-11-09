@@ -58,10 +58,7 @@ const Education = () => {
               University of Dhaka
             </a>
             , Bangladesh. Following my graduation, I began my career at a
-            prominent footwear manufacturing company in Bangladesh, where I
-            currently hold the position of Deputy Manager in Production. My
-            passion for coding has led me to develop several web applications
-            that enhance our manufacturing processes.
+            prominent footwear manufacturing company in Bangladesh. But during the Covid-19 lockdown, I discovered a love for web development, which set me on a new path.
           </p>
         </div>
       </div>
