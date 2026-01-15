@@ -27,10 +27,45 @@
     "REST API",
     "Gemini AI API"
   ],
-  "liveSiteLink": "https://quizlytics.vercel.app",
+  "liveSiteLink": "https://quizlytics-client-nine.vercel.app/",
   "githubClientLink": "https://github.com/nhwnahid007/quizlytics-client",
   "githubServerLink": "https://github.com/nhwnahid007/Quizlytics-server"
       },
+
+        {
+        "title": "Reunion CPSCM",
+        "image": "https://i.ibb.co.com/67tzyqxy/screencapture-reunion-cpscm-vercel-app-2026-01-15-12-14-05.png",
+        "description": "A full-stack reunion event platform that enables online registration, secure payments, QR-based entry verification, organizer management, and instant event information via chatbot—all in one place.",
+        "coreFeatures": [
+        "Online event registration system",
+        "Secure payment gateway integration",
+        "Automatic confirmation email with QR code",
+        "QR code–based entry verification",
+        "Class-wise participant management for organizers",
+        "ID card generation at entry gate",
+        "Admin dashboard for attendee tracking",
+        "Integrated chatbot for event information"
+      ]
+      ,
+        "technologies": [
+           "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Shad cn",
+            "REST API",
+            "Gemini AI API",
+            "Nodemailer"
+        ],
+        "liveSiteLink": "https://reunion-cpscm.vercel.app/",
+        "githubClientLink": "https://github.com/rafiul-razib/reunion-cpscm",
+        "githubServerLink": "https://github.com/rafiul-razib/reunion-server"
+      },
+      
       {
         "title": "Crafted Reflection",
         "image": "https://i.ibb.co/23thHjk/screencapture-crafted-reflections-web-app-2024-07-05-19-24-28.png",
@@ -86,31 +121,6 @@
         "liveSiteLink": "https://tech-fusion-194e6.web.app/",
         "githubClientLink": "https://github.com/rafiul-razib/tech-fusion-client",
         "githubServerLink": "https://github.com/rafiul-razib/tech-fusion-server"
-      },
-      
-      {
-        "title": "Career Path",
-        "image": "https://i.ibb.co/h7Dxx7h/screencapture-career-path-3991e-web-app-2024-07-05-19-25-31.png",
-        "description": "A website for job seekers. There are various type of jobs in this website posted by different employers. User can apply for job through this website.",
-        "coreFeatures": [
-          "Search jobs by category",
-          "User can apply job by signing in",
-          "User can post jobs"
-        ],
-        "technologies": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Angular",
-          "Node.js",
-          "Express",
-          "MongoDB",
-          "React Router Dom",
-          "Tailwind CSS & Daisy UI"
-        ],
-        "liveSiteLink": "https://career-path-3991e.web.app/",
-        "githubClientLink": "https://github.com/rafiul-razib/career-path",
-        "githubServerLink": "https://github.com/rafiul-razib/career-path-server"
       }
     ]
   
